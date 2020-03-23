@@ -1,0 +1,30 @@
+section {
+  display: flex;
+  flex-direction: column;
+  border: solid  1px red;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border: solid  1px blue;
+
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid  1px green;
+
+}
+
+.logo {
+  height: auto;
+  width: 20%;
+}
+
+.powerbi {
+  width: 10%;
+  height: 10%;
+}
