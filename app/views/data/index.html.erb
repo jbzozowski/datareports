@@ -4,13 +4,32 @@
     <%= image_tag('bigj_green.png', class: 'logo', alt: 'big j logo') %>
   </div>
 
-  <div class="title">
-    <h1>PowerBI</h1>
-    <h5>Sample Reports</h5>
-  </div>
+    <border class="border">
 
-  <div>
-    <%= image_tag('powerbi.png', class: 'powerbi', alt: 'powerbi logo') %>
-  </div>
+      <div class="title">
+        <%= image_tag('powerbi_horiz_gold.png', class: 'powerbi', alt: 'powerbi logo') %>
+
+        <p>Sample Reports</p>
+      </div>
+
+      <div class="reports">
+        <h3>Uber Eats</h3>
+        <p>A Power BI report that captures my Uber East delivery data:
+            Total Income, Total Trips, Average Trips/Day.
+        </p>
+
+        <h3>Manny vs. Bryce</h3>
+        <p>Using baseball statistics from the 2019 season I created a report
+          that compared the performance of Manny Machado to Bryce Harper to see
+          which team got the better deal.
+        </p>
+      </div>
+
+      <div class="rep-container reports">
+          <iframe class="frame" src="https://app.powerbi.com/view?r=eyJrIjoiNjliYWM0OTAtM2EyMi00NDkwLWFlYTAtZGFlMjc3YmJiMTFlIiwidCI6IjEzODQ1YzhlLTQ3MTYtNDA3NC05ZGM5LTg1NTE2MzY5MTJmMSIsImMiOjJ9" frameborder="0" allowFullScreen="true"></iframe>
+      </div>
+
+    </border>
 
 </section>
+
