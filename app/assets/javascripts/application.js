@@ -13,4 +13,5 @@
 //= require rails-ujs
 //= require activestorage
 
-@import 'jquery';@import 'jquery_ujs';
+// @import 'jquery';
+// @import 'jquery_ujs';
