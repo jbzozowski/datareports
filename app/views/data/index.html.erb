@@ -2,18 +2,18 @@
 
   <div class="header">
     <%= image_tag('bigj_blue.png', class: 'logo', alt: 'big j logo') %>
-    <%= link_to image_tag('email.png', class: 'contact', alt: 'email'), 'mailto:datasense13@gmail.com?Subject=Hello', target: '_top'  %>
-    <%= link_to image_tag('linkedin.png', alt: 'linkedin', class: 'contact'), 'https://www.linkedin.com/in/jbzozowski/', target: '_blank' %>
-    <%= link_to image_tag('github.png', class: 'contact', alt: 'github'), 'https://github.com/jbzozowski', target: '_blank'  %>
-    <%= link_to image_tag('resumeicon.png', class: 'resume', alt: 'resume'), download_pdf_path %>
-
-
-    <%= link_to download_pdf_path do %>
-        <%= image_tag('resumeicon.png', class: 'resume', alt: 'resume') %>
-    <% end %>
-
-
+    <%= link_to image_tag('email.png', class: 'contact', alt: 'email', title: 'Email'), 'mailto:datasense13@gmail.com?Subject=Hello', target: '_top'  %>
+    <%= link_to image_tag('linkedin.png', alt: 'linkedin', class: 'contact', title: 'LinkedIn'), 'https://www.linkedin.com/in/jbzozowski/', target: '_blank' %>
+    <%= link_to image_tag('github.png', class: 'contact', alt: 'github', title: 'GitHub'), 'https://github.com/jbzozowski', target: '_blank'  %>
+    <%= link_to image_tag('resumeicon.png', class: 'resume', alt: 'resume', title: 'Resume'), download_pdf_path %>
   </div>
+
+
+    <!--<%= link_to download_pdf_path do %>-->
+        <!--<%= image_tag('resumeicon.png', class: 'resume', alt: 'resume', title: 'Resume') %>-->
+    <!--<% end %>-->
+
+
 
 
 
