@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   root 'data#index'
 
-
+  get 'download_pdf', to: "data#download_pdf"
 
 
 end

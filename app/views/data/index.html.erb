@@ -1,10 +1,18 @@
 <section>
 
   <div class="header">
-    <%= image_tag('bigj_green.png', class: 'logo', alt: 'big j logo') %>
-    <%= image_tag('linkedin.png', class: 'contact', alt: 'linkedin') %>
-    <%= image_tag('email.png', class: 'contact', alt: 'linkedin') %>
-    <%= image_tag('github.png', class: 'contact', alt: 'linkedin') %>
+    <%= image_tag('bigj_blue.png', class: 'logo', alt: 'big j logo') %>
+    <%= link_to image_tag('email.png', class: 'contact', alt: 'email'), 'mailto:datasense13@gmail.com?Subject=Hello', target: '_top'  %>
+    <%= link_to image_tag('linkedin.png', alt: 'linkedin', class: 'contact'), 'https://www.linkedin.com/in/jbzozowski/', target: '_blank' %>
+    <%= link_to image_tag('github.png', class: 'contact', alt: 'github'), 'https://github.com/jbzozowski', target: '_blank'  %>
+    <%= link_to image_tag('resumeicon.png', class: 'resume', alt: 'resume'), download_pdf_path %>
+
+
+    <%= link_to download_pdf_path do %>
+        <%= image_tag('resumeicon.png', class: 'resume', alt: 'resume') %>
+    <% end %>
+
+
   </div>
 
 
@@ -12,9 +20,13 @@
     <border class="border">
 
       <div class="title">
+        <%= image_tag('badge.png', class: 'pbibadge', alt: 'power bi badge') %>
+
         <%= image_tag('powerbi_horiz_gold.png', class: 'powerbi', alt: 'powerbi logo') %>
 
-        <p>Sample Reports</p>
+        <h2>Sample Reports</h2>
+        <p>created by Julius Bzozowski</p>
+
       </div>
 
       <div class="reports">
