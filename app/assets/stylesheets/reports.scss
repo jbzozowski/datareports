@@ -1,22 +1,42 @@
 body {
-  font-family: "Avenir Next Condensed";
+  font-family: Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif;
 }
 
-section {
+.section {
   display: flex;
-  flex-direction: row;
   margin-right: 10px;
-  //border: solid  1px red;
+  //border: solid  6px red;
 }
 
-.header {
+
+.sidebar {
+  margin-top: 30px;
+  width: 3%;
+  margin-right: 60px;
+  margin-left: 20px;
+  height: 5vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 10px;
-  margin-top: 100px;
-  margin-right: 30px;
-  //border: solid 1px red;
+  //border: solid 1px purple;
+}
+
+
+div h2 {
+  margin-top: -5px;
+}
+
+.border {
+  width: 80%;
+  height: 100%;
+  border-left: solid 1px #f2c811;
+  margin-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  //border: solid 1px purple;
 }
 
 .title {
@@ -28,7 +48,7 @@ section {
 }
 
 .logo {
-  width: 100px;
+  width: 60px;
   height: auto;
 }
 
@@ -71,10 +91,6 @@ div p {
   margin-top: 20px;
 }
 
-.border h2 {
-  margin-top: -5px;
-}
-
 .reports {
   display: flex;
   flex-direction: column;
@@ -82,12 +98,6 @@ div p {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 5px;
-}
-
-.border {
-  border-left: solid 1px #f2c811;
-  margin-top: 20px;
-  padding-left: 20px;
 }
 
 .rep-container {
